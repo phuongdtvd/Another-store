@@ -1,0 +1,44 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.products {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  border: solid 2px;
+  padding: 5px;
+}
+
+.categories {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.active {
+  background-color: blanchedalmond;
+}
+
+.category {
+  cursor: pointer;
+  padding: 5px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  border: solid 1px;
+  margin-bottom: 15px;
+  border-radius: 5px;
+}
+
+.loading--button {
+  margin-top: 20px;
+}
